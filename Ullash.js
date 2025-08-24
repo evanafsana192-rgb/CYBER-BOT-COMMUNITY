@@ -57,7 +57,7 @@ function startBot(message) {
     child.on("error", (error) => {
         logger(`An error occurred: ${JSON.stringify(error)}`, "[ Error ]");
     });
-};
+};.
 
 ////////////////////////////////////////////////
 //========= Check update from Github =========//
